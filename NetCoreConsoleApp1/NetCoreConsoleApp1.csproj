@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JustDecompileEngine\JustDecompile.External.JustAssembly\JustDecompile.External.JustAssembly.csproj" />
+    <ProjectReference Include="..\JustDecompileEngine\Mono.Cecil\Mono.Cecil.csproj" />
+    <ProjectReference Include="..\JustDecompileEngine\MSBuildProjectCreator\Tools.MSBuildProjectBuilder.csproj" />
+  </ItemGroup>
+
+</Project>
